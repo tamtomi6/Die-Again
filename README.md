@@ -23,6 +23,8 @@ A small Unity platformer demo developed in 15 days.
 ## Project Status
 
 Currently in demo development stage.
+This demo currently includes only Level 1 and Level 2.
+More levels, mechanics, and gameplay features are planned for future updates.
 
 ## Future Plans
 
