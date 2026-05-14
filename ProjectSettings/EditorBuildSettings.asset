@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/gioi_thieu.unity
+    guid: c82d3f41e90045d44bf8d2396a1638da
+  - enabled: 1
+    path: Assets/Scenes/man_choi.unity
+    guid: 8e8fc170585eddb42bc0022ea2c4695f
+  - enabled: 1
+    path: Assets/Scenes/man1.unity
+    guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Lose.unity
+    guid: 9f35b33f7f87a7d44ae28c28bbf82e0d
+  - enabled: 1
+    path: Assets/Scenes/man2.unity
+    guid: 9b8e2e4605fd6e84d805d6ce15e722f1
+  m_configObjects:
+    com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+  m_UseUCBPForAssetBundles: 0
