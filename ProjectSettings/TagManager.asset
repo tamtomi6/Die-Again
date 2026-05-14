@@ -7,6 +7,7 @@ TagManager:
   - Ground
   - Trap
   - pass
+  - Audio
   layers:
   - Default
   - TransparentFX

@@ -16,11 +16,13 @@ public class LoseScene : MonoBehaviour
 
     public void Retry()
     {
+        SoundManager.instance.PlayClick();
         SceneManager.LoadScene(GameManager.currentLevel);
     }
 
     public void Home()
     {
+        SoundManager.instance.PlayClick();
         SceneManager.LoadScene("Menu");
     }
 }

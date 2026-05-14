@@ -7,6 +7,8 @@ public class Portal : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            SoundManager.instance.PlayPoof();
+
             string currentScene = SceneManager.GetActiveScene().name;
 
             // Lấy số sau chữ "man"
