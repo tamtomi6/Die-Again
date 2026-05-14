@@ -65,7 +65,10 @@ public class move_char : MonoBehaviour
         {
             anim.SetTrigger("Jump");
 
+            if (SoundManager.instance != null)
+            {
             SoundManager.instance.PlayJump();
+            }
 
             rb.linearVelocity = new Vector3(
                 rb.linearVelocity.x,
@@ -116,7 +119,10 @@ public class move_char : MonoBehaviour
 
         anim.SetTrigger("IsDead");
 
-        SoundManager.instance.PlayDead();
+            if (SoundManager.instance != null)
+            {
+                SoundManager.instance.PlayDead();
+            }
 
         GameManager.currentLevel = SceneManager.GetActiveScene().name;
 
@@ -127,7 +133,10 @@ public class move_char : MonoBehaviour
 
     void LoadLoseScene()
     {   
-        SoundManager.instance.PlayLose();
+        if (SoundManager.instance != null)
+                {
+                    SoundManager.instance.PlayLose();
+                }
 
         SceneManager.LoadScene("Lose");
     }

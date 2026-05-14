@@ -84,7 +84,10 @@ public class LevelSelect : MonoBehaviour
     {
         string sceneName = "man" + (index);
 
-        SoundManager.instance.PlayClick();
+        if (SoundManager.instance != null)
+        {
+            SoundManager.instance.PlayClick();
+        }
 
         SceneManager.LoadScene(sceneName);
     }
